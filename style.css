@@ -14,7 +14,7 @@ body {
 .container {
     position: absolute;
     background-color: white;
-    border-radius: 10px;    
+    border-radius: 10px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -54,7 +54,8 @@ button {
     font-size: medium;
 }
 
-a {
+a,
+span {
     color: gray;
     text-decoration: none;
     opacity: 0.8;
@@ -64,7 +65,7 @@ a {
     margin-top: 10px;
 }
 
-span {
+#signup {
     color: #f50056;
     font-weight: bold;
 }
