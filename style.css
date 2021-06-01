@@ -39,7 +39,7 @@ input {
     border: none;
     border-bottom: 2px solid gray;
     font-size: medium;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 button {
@@ -52,6 +52,7 @@ button {
     color: white;
     font-weight: bold;
     font-size: medium;
+    cursor: pointer;
 }
 
 a,
@@ -62,7 +63,7 @@ span {
 }
 
 #other {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #signup {
