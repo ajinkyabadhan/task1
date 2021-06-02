@@ -70,20 +70,23 @@ button {
     cursor: pointer;
 }
 
-a {
-    color: gray;
-    text-decoration: none;
-}
-
-span {
-    color: gray;
-}
-
 #otherLinks {
     margin-top: 15px;
     /*As center tag is deprecated in HTML5 
     need to use this to center text*/
     text-align: center;
+}
+
+a,
+span {
+    color: gray;
+    text-decoration: none;
+}
+
+#forgotPassword {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 5px auto;
 }
 
 #signup {
