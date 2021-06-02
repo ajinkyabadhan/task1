@@ -1,17 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    background: url(./images/img2.jpg) center center fixed;
+    background: url(./images/img2.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: 'Trebuchet MS';
 }
 
 .container {
+    /*parent of div container is body*/
     position: absolute;
     background-color: white;
     border-radius: 10px;
@@ -24,46 +24,66 @@ body {
     padding: 18px;
 }
 
+img {
+    /*As center tag is deprecated in HTML5 
+    need to use this to center inline element*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
     font-size: 42px;
-    margin-bottom: 30px;
+    text-align: center;
     padding: 20px;
-    padding-top: 0;
+    width: max-content;
 }
 
 input {
+    display: block;
     padding-bottom: 20px;
     padding-left: 10px;
     width: 100%;
-    outline: none;
+    margin: 20px 0 20px 0;
     border: none;
-    border-bottom: 2px solid gray;
-    font-size: medium;
-    opacity: 0.5;
+    outline: none;
+    border-bottom: 2px solid lightgray;
+    font-size: 16px;
+}
+
+input:focus {
+    border-bottom-color: green;
 }
 
 button {
+    display: block;
+    margin: 0 auto 0 auto;
     width: 100%;
     padding: 10px;
-    margin-top: 20px;
-    border: 0;
+    border: none;
     border-radius: 5px;
     background-color: #f50056;
     color: white;
+    /*Thickness of font*/
     font-weight: bold;
-    font-size: medium;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 
-a,
-span {
+a {
     color: gray;
     text-decoration: none;
-    opacity: 0.8;
 }
 
-#other {
+span {
+    color: gray;
+}
+
+#otherLinks {
     margin-top: 15px;
+    /*As center tag is deprecated in HTML5 
+    need to use this to center text*/
+    text-align: center;
 }
 
 #signup {
