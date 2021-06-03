@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: none;
+    padding: none;
     box-sizing: border-box;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .innerContainer {
-    padding: 18px;
+    padding: 1.125rem;
 }
 
 img {
@@ -35,20 +35,20 @@ img {
 h1 {
     font-size: 2.6rem;
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
     width: max-content;
 }
 
 input {
     display: block;
-    padding-bottom: 20px;
-    padding-left: 10px;
+    padding-bottom: 1.25rem;
+    padding-left: 0.625rem;
     width: 100%;
-    margin: 20px 0 20px 0;
+    margin: 1.25rem 0 1.25rem 0;
     border: none;
     outline: none;
     border-bottom: 2px solid lightgray;
-    font-size: 1.04rem;
+    font-size: 1.125rem;
 }
 
 input:focus {
@@ -59,7 +59,7 @@ button {
     display: block;
     margin: 0 auto 0 auto;
     width: 100%;
-    padding: 10px;
+    padding: 0.625rem;
     border: none;
     border-radius: 5px;
     background-color: #f50056;
@@ -71,7 +71,7 @@ button {
 }
 
 #otherLinks {
-    margin-top: 15px;
+    margin-top: 0.938rem;
     /*As center tag is deprecated in HTML5 
     need to use this to center text*/
     text-align: center;
@@ -86,7 +86,7 @@ span {
 #forgotPassword {
     display: block;
     width: fit-content;
-    margin: 0 auto 5px auto;
+    margin: 0 auto 0.313rem auto;
 }
 
 #signup {
