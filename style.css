@@ -28,14 +28,13 @@ img {
     /*As center tag is deprecated in HTML5 
     need to use this to center inline element*/
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 h1 {
     font-size: 2.6rem;
     text-align: center;
-    padding: 1.25rem;
+    padding: 1.05rem;
     width: max-content;
 }
 
@@ -57,7 +56,7 @@ input:focus {
 
 button {
     display: block;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     width: 100%;
     padding: 0.625rem;
     border: none;
